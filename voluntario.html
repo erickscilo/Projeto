@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Voluntário</title>
+		<link rel="stylesheet" type="text/css" href="css/estiloform.txt">
+	</head>
+	<body>
+	<div class="voltarmenu">
+		<a href="index.html">
+			<center><div class="voltar">Ir para o menu</div></center>
+		</a>
+	</div>
+	
+	
+		<form action="php/voluntario.php"  method="post" enctype="multipart/form-data">
+			<br>
+
+			<h1> Cadastro de voluntário ! </h1>
+			<hr>
+			
+				<h3>Dados Pessoais</h3>
+				Nome: <input type="text" name="nome" maxlength="70" size="50" required>
+				
+				RG: <input type="text" name="cpf" maxlength="11" size="11"><br>
+
+				Sexo: <select name="sexo" required>
+					<option value="">Escolha</option>
+					<option value="H">Homem</option>
+					<option value="M">Mulher</option>
+									</select>
+				
+				Data de Nascimento: <input type="date" name="dataNasc" required><br>
+
+				Telefone Fixo: <input type="text" name="telFixo" maxlength="13" size="13">
+				Celular: <input type="text" name="cel" maxlength="14" size="14" required>
+	<br>
+				Cidade: <input type="text" name="cidade" maxlength="20" size="20" required>
+
+				Bairro: <input type="text" name="bairro" maxlength="20" size="20"><br>
+				Endereço: <input type="text" name="endereco" maxlength="50" size="50" required> <br> <hr>
+				Data de inscrição: <input type="date" name="dataInsc" min="2017-01-01" max="2030-01-01" required>
+				Setor: <input type="text" name="setor" maxlength="20" size="20" required>
+			
+			<br>
+			
+			<hr>
+			<center>
+				<input class="enviar" id="enviarFunc" type="submit" value="Enviar">
+				<input class="enviar" id="enviarFunc" type="reset" value="Apagar">
+				<a href="php/voluntario.listagem.php"  >
+					<input class="enviar" id="enviarFunc" value="Listar">
+				</a>
+			</center>
+			<br>
+		</form>
+	</body>
+</html>	
