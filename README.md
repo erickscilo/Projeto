@@ -1,4 +1,3 @@
 # Projeto
-Não esqueça de ter o 'wamp'.
-Crie o banco com o nome 'projeto', insira as tabelas ( consulte a pasta 'sql' )
-thanks
+Esse projeto foi criado na época que eu estava na faculdade.
+O intuito era ajudar o cadastro de alunos e voluntários de um igreja que fazia atividades aos finais de semana para as crianças, como futebol, artes, aula de matemática, etc.
